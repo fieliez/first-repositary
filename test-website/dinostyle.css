@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  background: linear-gradient(to bottom right, #fdebcd, #333);
+}
+
+/* .............header............ */
+
+header {
+  background-color: #333;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 25px 0px;
+  margin-bottom: 25px;
+}
+/*............. main ................ */
+
+img {
+  width: 100%;
+}
+img:hover {
+  transform: rotate(360deg) scale(1.3);
+  transition: transform 2s cubic-bezier(0.56, -1.69, 0.45, 1.72);
+}
+main {
+  width: 600px;
+  background-color: beige;
+  padding: 5px 25px;
+  text-align: center;
+  margin: 25px auto;
+  border: 5px solid #e6d9ce;
+}
+.quote {
+  text-align: center;
+  padding: 25px;
+  margin-top: 25px;
+  border-top: 1px solid #e6d9ce;
+  border-bottom: 1px solid #e6d9ce;
+}
+
+/* ..............footer ............. */
+
+footer {
+  background-color: #333;
+  color: #a8aaad;
+  padding: 25px 0 10px 0;
+  /* text-align: center; */
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+}
+.children {
+  width: 200px;
+  line-height: 30px;
+}
+
+h4 {
+  color: white;
+}
+.copyright {
+  margin-top: 60px;
+  text-align: center;
+}
+.terms {
+  margin: 0px;
+  font-size: 10px;
+  padding-top: 10px;
+  display: inline-block;
+}
+.terms:hover {
+  transform: scale(2) translateY(-8px);
+  transition: transform 1000ms cubic-bezier(0.69, -1.04, 0.42, 1);
+}
+a {
+  text-decoration: none;
+  color: #a8aaad;
+}
+a:hover {
+  color: white;
+}

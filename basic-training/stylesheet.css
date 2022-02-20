@@ -1,0 +1,38 @@
+body {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+#earth-title,
+#mars-title {
+  color: lightsalmon;
+}
+.intro {
+  font-size: 24px;
+}
+
+.planet {
+  height: 200px;
+  width: 100%;
+}
+
+.img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: hotpink;
+}
+h2 {
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding-bottom: 10px;
+}
